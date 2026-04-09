@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # loads .env file
 
-TMDB_API_KEY = os.getenv("TMDB_API_KEY")
+TMDB_API_KEY = st.secrets.get("TMDB_API_KEY") or os.getenv("TMDB_API_KEY")
 
 # ---------- PAGE CONFIG ----------
 st.set_page_config(layout="wide")
