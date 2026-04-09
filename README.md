@@ -16,6 +16,8 @@ A Machine Learning-based Movie Recommendation System that suggests similar movie
 
 ## 🧠 Project Workflow  
 
+![Workflow](assets/Workflow.png)
+
 ### 1. Data Collection  
 - Dataset: TMDB 5000 Movies & Credits  
 - Contains metadata like cast, crew, genres, overview, etc.
@@ -73,6 +75,8 @@ Key Features in App:
 - Dynamic progress bar  
 - Poster fetching via TMDB API  
 - Clean UI with custom CSS  
+
+![App Interface](assets/App_Interface.png)
 
 ---
 
